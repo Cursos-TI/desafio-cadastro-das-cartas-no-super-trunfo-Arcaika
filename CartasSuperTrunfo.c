@@ -7,7 +7,7 @@
 //Teste larissa
 
 int main() {
-    char Código A01 [4];
+    char Código A01 [4];  //Nesse momento eu estou declarando as variaveis de 8 estados (A a H) e sua respectivas cidades (1 a 4)
     char Nome A01 [20];
     int População A01;
     float Pib A01;
