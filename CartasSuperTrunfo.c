@@ -10,205 +10,205 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
-    char Codigo A01 [4];  //Nesse momento eu estou declarando as variaveis de 8 estados (A a H) e sua respectivas cidades (1 a 4)
-    char Nome A01 [20];
-    int População A01;
-    float Pib A01;
-    int Pontos turísticos A01;
+    char CodigoA01 [4];  //Nesse momento eu estou declarando as variaveis de 8 estados (A a H) e sua respectivas cidades (1 a 4)
+    char NomeA01 [20];
+    int PopulaçãoA01;
+    float PibA01;
+    int PontosTuristicosA01;
 
-    char Codigo A02 [4];
-    char Nome A02 [20];
-    int População A02;
-    float Pib A02;
-    int Pontos turísticos A02;
+    char CodigoA02 [4];
+    char NomeA02 [20];
+    int PopulaçãoA02;
+    float PibA02;
+    int PontosTuristicosA02;
 
-    char Codigo A03 [4];
-    char Nome A03 [20];
-    int População A03;
-    float Pib A03;
-    int Pontos turísticos A03;
+    char CodigoA03 [4];
+    char NomeA03 [20];
+    int PopulaçãoA03;
+    float PibA03;
+    int PontosTuristicosA03;
 
-    char Codigo A04 [4];
-    char Nome A04 [20];
-    int População A04;
-    float Pib A04;
-    int Pontos turísticos A04;
+    char CodigoA04 [4];
+    char NomeA04 [20];
+    int PopulaçãoA04;
+    float PibA04;
+    int PontosTuristicosA04;
 
-    char Codigo B01 [4];
-    char Nome B01 [20];
-    int População B01;
-    float Pib B01;
-    int Pontos turísticos B01;
+    char CodigoB01 [4];
+    char NomeB01 [20];
+    int PopulaçãoB01;
+    float PibB01;
+    int PontosTuristicosB01;
 
-    char Codigo B02 [4];
-    char Nome B02 [20];
-    int População B02;
-    float Pib B02;
-    int Pontos turísticos B02;
+    char CodigoB02 [4];
+    char NomeB02 [20];
+    int PopulaçãoB02;
+    float PibB02;
+    int PontosTuristicosB02;
 
-    char Codigo B03 [4];
-    char Nome B03 [20];
-    int População B03;
-    float Pib B03;
-    int Pontos turísticos B03;
+    char CodigoB03 [4];
+    char NomeB03 [20];
+    int PopulaçãoB03;
+    float PibB03;
+    int PontosTuristicosB03;
 
-    char Codigo B04 [4];
-    char Nome B04 [20];
-    int População B04;
-    float Pib B04;
-    int Pontos turísticos B04;
+    char CodigoB04 [4];
+    char NomeB04 [20];
+    int PopulaçãoB04;
+    float PibB04;
+    int PontosTuristicosB04;
 
-    char Codigo C01 [4];
-    char Nome C01 [20];
-    int População C01;
-    float Pib C01;
-    int Pontos turísticos C01;
+    char CodigoC01 [4];
+    char NomeC01 [20];
+    int PopulaçãoC01;
+    float PibC01;
+    int PontosTuristicosC01;
 
-    char Codigo C02 [4];
-    char Nome C02 [20];
-    int População C02;
-    float Pib C02;
-    int Pontos turísticos C02;
+    char CodigoC02 [4];
+    char NomeC02 [20];
+    int PopulaçãoC02;
+    float PibC02;
+    int PontosTuristicosC02;
 
-    char Codigo C03 [4];
-    char Nome C03 [20];
-    int População C03;
-    float Pib C03;
-    int Pontos turísticos C03;
+    char CodigoC03 [4];
+    char NomeC03 [20];
+    int PopulaçãoC03;
+    float PibC03;
+    int PontosTuristicosC03;
 
-    char Codigo C04 [4];
-    char Nome C04 [20];
-    int População C04;
-    float Pib C04;
-    int Pontos turísticos C04;
+    char CodigoC04 [4];
+    char NomeC04 [20];
+    int PopulaçãoC04;
+    float PibC04;
+    int PontosTuristicosC04;
     
 
-    char Codigo D01 [4];
-    char Nome D01 [20];
-    int População D01;
-    float Pib D01;
-    int Pontos turísticos D01;
+    char CodigoD01 [4];
+    char NomeD01 [20];
+    int PopulaçãoD01;
+    float PibD01;
+    int PontosTuristicosD01;
 
-    char Codigo D02 [4];
-    char Nome D02 [20];
-    int População D02;
-    float Pib D02;
-    int Pontos turísticos D02;
+    char CodigoD02 [4];
+    char NomeD02 [20];
+    int PopulaçãoD02;
+    float PibD02;
+    int PontosTuristicosD02;
 
-    char Codigo D03 [4];
-    char Nome D03 [20];
-    int População D03;
-    float Pib D03;
-    int Pontos turísticos D03;
+    char CodigoD03 [4];
+    char NomeD03 [20];
+    int PopulaçãoD03;
+    float PibD03;
+    int PontosTuristicosD03;
 
-    char Codigo D04 [4];
-    char Nome D04 [20];
-    int População D04;
-    float Pib D04;
-    int Pontos turísticos D04;
+    char CodigoD04 [4];
+    char NomeD04 [20];
+    int PopulaçãoD04;
+    float PibD04;
+    int PontosTuristicosD04;
 
-    char Codigo E01 [4];
-    char Nome E01 [20];
-    int População E01;
-    float Pib E01;
-    int Pontos turísticos E01;
+    char CodigoE01 [4];
+    char NomeE01 [20];
+    int PopulaçãoE01;
+    float PibE01;
+    int PontosTuristicosE01;
 
-    char Codigo E02 [4];
-    char Nome E02 [20];
-    int População E02;
-    float Pib E02;
-    int Pontos turísticos E02;
+    char CodigoE02 [4];
+    char NomeE02 [20];
+    int PopulaçãoE02;
+    float PibE02;
+    int PontosTuristicosE02;
 
-    char Codigo E03 [4];
-    char Nome E03 [20];
-    int População E03;
-    float Pib E03;
-    int Pontos turísticos E03;
+    char CodigoE03 [4];
+    char NomeE03 [20];
+    int PopulaçãoE03;
+    float PibE03;
+    int PontosTuristicosE03;
 
-    char Codigo E04 [4];
-    char Nome E04 [20];
-    int População E04;
-    float Pib E04;
-    int Pontos turísticos E04;
+    char CodigoE04 [4];
+    char NomeE04 [20];
+    int PopulaçãoE04;
+    float PibE04;
+    int PontosTuristicosE04;
 
-    char Codigo F01 [4];
-    char Nome F01 [20];
-    int População F01;
-    float Pib F01;
-    int Pontos turísticos F01;
+    char CodigoF01 [4];
+    char NomeF01 [20];
+    int PopulaçãoF01;
+    float PibF01;
+    int PontosTuristicosF01;
 
-    char Codigo F02 [4];
-    char Nome F02 [20];
-    int População F02;
-    float Pib F02;
-    int Pontos turísticos F02;
+    char CodigoF02 [4];
+    char NomeF02 [20];
+    int PopulaçãoF02;
+    float PibF02;
+    int PontosTuristicosF02;
 
-    char Codigo F03 [4];
-    char Nome F03 [20];
-    int População F03;
-    float Pib F03;
-    int Pontos turísticos F03;
+    char CodigoF03 [4];
+    char NomeF03 [20];
+    int PopulaçãoF03;
+    float PibF03;
+    int PontosTuristicosF03;
 
-    char Codigo F04 [4];
-    char Nome F04 [20];
-    int População F04;
-    float Pib F04;
-    int Pontos turísticos F04;
+    char CodigoF04 [4];
+    char NomeF04 [20];
+    int PopulaçãoF04;
+    float PibF04;
+    int PontosTuristicosF04;
 
-    char Codigo G01 [4];
-    char Nome G01 [20];
-    int População G01;
-    float Pib G01;
-    int Pontos turísticos G01;
+    char CodigoG01 [4];
+    char NomeG01 [20];
+    int PopulaçãoG01;
+    float PibG01;
+    int PontosTuristicosG01;
 
-    char Codigo G02 [4];
-    char Nome G02 [20];
-    int População G02;
-    float Pib G02;
-    int Pontos turísticos G02;
+    char CodigoG02 [4];
+    char NomeG02 [20];
+    int PopulaçãoG02;
+    float PibG02;
+    int PontosTuristicosG02;
 
 
-    char Codigo G03 [4];
-    char Nome G03 [20];
-    int População G03;
-    float Pib G03;
-    int Pontos turísticos G03;
+    char CodigoG03 [4];
+    char NomeG03 [20];
+    int PopulaçãoG03;
+    float PibG03;
+    int PontosTuristicosG03;
     
-    char Codigo G04 [4];
-    char Nome G04 [20];
-    int População G04;
-    float Pib G04;
-    int Pontos turísticos G04;
+    char CodigoG04 [4];
+    char NomeG04 [20];
+    int PopulaçãoG04;
+    float PibG04;
+    int PontosTuristicosG04;
 
-    char Codigo H01 [4];
-    char Nome H01 [20];
-    int População H01;
-    float Pib H01;
-    int Pontos turísticos H01;
+    char CodigoH01 [4];
+    char NomeH01 [20];
+    int PopulaçãoH01;
+    float PibH01;
+    int PontosTuristicosH01;
 
-    char Codigo H02 [4];
-    char Nome H02 [20];
-    int População H02;
-    float Pib H02;
-    int Pontos turísticos H02;
+    char CodigoH02 [4];
+    char NomeH02 [20];
+    int PopulaçãoH02;
+    float PibH02;
+    int PontosTuristicosH02;
 
-    char Codigo H03 [4];
-    char Nome H03 [20];
-    int População H03;
-    float Pib H03;
-    int Pontos turísticos H03;
+    char CodigoH03 [4];
+    char NomeH03 [20];
+    int PopulaçãoH03;
+    float PibH03;
+    int PontosTuristicosH03;
 
-    char Codigo H04 [4];
-    char Nome H04 [20];
-    int População H04;
-    float Pib H04;
-    int Pontos turísticos H04;
+    char CodigoH04 [4];
+    char NomeH04 [20];
+    int PopulaçãoH04;
+    float PibH04;
+    int PontosTuristicosH04;
 
 
     // Cadastro das Cartas:
    printf("Digite o código da cidade: \n");
-   scanf("%s", Codigo A01);
-   printf ("O código da cidade é: %s", Codigo A01);
+   scanf("%s", CodigoA01);
+   printf ("O código da cidade é: %s", CodigoA01);
     
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
