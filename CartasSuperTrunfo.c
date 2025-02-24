@@ -54,8 +54,9 @@ int main() {
    scanf("%f", &Pib1);
    printf("Digite o número de pontos turísticos: \n");
    scanf("%d", &PontosTuristicos1);
-
-   printf("Digite o código da cidade: \n");
+   
+ 
+   printf("Digite o código de outra cidade: \n");
    scanf("%s", Codigo2);
    printf("Digite o nome da cidade: \n");
    scanf("%s", Nome2);
@@ -65,7 +66,7 @@ int main() {
    scanf("%f", &Pib2);
    printf("Digite o número de pontos turísticos: \n");
    scanf("%d", &PontosTuristicos2);
-
+   
    printf("Digete outro estado:");
    scanf("%s", Estado2);
    printf("Digite o código da cidade: \n");
@@ -78,8 +79,8 @@ int main() {
    scanf("%f", &Pib3);
    printf("Digite o número de pontos turísticos: \n");
    scanf("%d", &PontosTuristicos3);
-
-   printf("Digite o código da cidade: \n");
+   
+   printf("Digite o código de outra cidade: \n");
    scanf("%s", Codigo4);
    printf("Digite o nome da cidade: \n");
    scanf("%s", Nome4);
@@ -90,7 +91,36 @@ int main() {
    printf("Digite o número de pontos turísticos: \n");
    scanf("%d", &PontosTuristicos4);
 
+  printf("Cidades do Estado %s\n",Estado1);
+  
+  printf("Código da cidade: %s\n",Codigo1);
+  printf("Nome da cidade: %s\n", Nome1);
+  printf("Número da população: %d\n", Populacao1);
+  printf("Pib da cidade: %f\n",Pib1);
+  printf("Número de pontos turisticos: %d\n",PontosTuristicos1);
 
+  printf("Código da cidade: %s\n",Codigo2);
+  printf("Nome da cidade: %s\n", Nome2);
+  printf("Número da população: %d\n", Populacao2);
+  printf("Pib da cidade: %f\n",Pib2);
+  printf("Número de pontos turisticos: %d\n", PontosTuristicos2);
+
+  printf("Cidades do Estado %s\n",Estado2);
+
+  printf("Código da cidade: %s\n",Codigo3);
+  printf("Nome da cidade: %s\n", Nome3);
+  printf("Número da população: %d\n", Populacao3);
+  printf("Pib da cidade: %f\n",Pib3);
+  printf("Número de pontos turisticos: %d\n",PontosTuristicos3);
+
+  printf("Código da cidade: %s\n",Codigo4);
+  printf("Nome da cidade: %s\n", Nome4);
+  printf("Número da população: %d\n", Populacao4);
+  printf("Pib da cidade: %f\n",Pib4);
+  printf("Número de pontos turisticos: %d\n", PontosTuristicos4);
+
+
+  
 
    
 
