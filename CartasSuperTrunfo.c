@@ -37,12 +37,12 @@ int main() {
     float Area4;
 
     // Cadastro das Cartas: 
-   printf("Digite o estado das cartas (Ex:A,B,C):");
+   printf("Digite o estado das cartas (Ex:A,B,C):\n");
    scanf("%s", Estado1);
-   printf("Digite o código da cidade (Ex:A01,A02): \n");
+   printf("Digite o código da cidade (Ex:A01,A02):\n");
    scanf("%s", Codigo1);
    printf("Digite o nome da cidade: \n");
-   scanf("%s", Nome1);
+   scanf(" %[^\n]", Nome1);
    printf("Digite o número da populaçao: \n");
    scanf("%d", &Populacao1);
    printf("Digite o Pib: \n");
@@ -57,7 +57,7 @@ int main() {
    printf("Digite o código de outra cidade: \n"); /*informações da segunda cidade do Estado*/
    scanf("%s", Codigo2);
    printf("Digite o nome da cidade: \n");
-   scanf("%s", Nome2);
+   scanf(" %[^\n]", Nome2);
    printf("Digite o número da populaçao: \n");
    scanf("%d", &Populacao2);
    printf("Digite o Pib: \n");
@@ -68,12 +68,12 @@ int main() {
    scanf("%f", &Area2);
    printf("\n----------------------------------\n"); /*Para melhor organização*/
 
-   printf("Digite outro estado:"); /*Estado 2*/
+   printf("Digite outro estado:\n"); /*Estado 2*/
    scanf("%s", Estado2);
    printf("Digite o código da cidade: \n");
    scanf("%s", Codigo3);
    printf("Digite o nome da cidade: \n");
-   scanf("%s", Nome3);
+   scanf(" %[^\n]", Nome3);
    printf("Digite o número da populaçao: \n");
    scanf("%d", &Populacao3);
    printf("Digite o Pib: \n");
@@ -87,7 +87,7 @@ int main() {
    printf("Digite o código de outra cidade: \n"); /*Segunda cidade do estado*/
    scanf("%s", Codigo4);
    printf("Digite o nome da cidade: \n");
-   scanf("%s", Nome4);
+   scanf(" %[^\n]", Nome4);
    printf("Digite o número da populaçao: \n");
    scanf("%d", &Populacao4);
    printf("Digite o Pib: \n");
@@ -106,6 +106,7 @@ int main() {
   printf("Número da população: %d\n", Populacao1);
   printf("Pib da cidade: %f\n",Pib1);
   printf("Número de pontos turisticos: %d\n",PontosTuristicos1);
+  printf("Área da cidade: %f\n",Area1);
   
   printf("\n\n");/*Para melhor organização*/
 
@@ -114,6 +115,7 @@ int main() {
   printf("Número da população: %d\n", Populacao2);
   printf("Pib da cidade: %f\n",Pib2);
   printf("Número de pontos turisticos: %d\n", PontosTuristicos2);
+  printf("Área da cidade: %f\n",Area2);
 
   printf("\n----------------------------------\n"); /*Para melhor organização*/
   printf("Cartas de cidades do Estado %s\n",Estado2);
@@ -124,7 +126,8 @@ int main() {
   printf("Número da população: %d\n", Populacao3);
   printf("Pib da cidade: %f\n",Pib3);
   printf("Número de pontos turisticos: %d\n",PontosTuristicos3);
-
+  printf("Área da cidade: %f\n",Area3);
+  
   printf("\n\n"); /*Para melhor organização*/
 
   printf("Código da cidade: %s\n",Codigo4);
@@ -132,7 +135,9 @@ int main() {
   printf("Número da população: %d\n", Populacao4);
   printf("Pib da cidade: %f\n",Pib4);
   printf("Número de pontos turisticos: %d\n", PontosTuristicos4);
-  printf("\n----------------------------------\n"); /*Para melhor organização*/A
+  printf("Área da cidade: %f\n",Area4);
+
+  printf("\n----------------------------------\n"); /*Para melhor organização*/
 
     return 0;
 }
