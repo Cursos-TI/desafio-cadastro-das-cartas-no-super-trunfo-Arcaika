@@ -98,7 +98,7 @@ int main() {
    scanf("%f", &Area4);
 
   printf("\n----------------------------------\n"); /*Para melhor organização*/
-  printf("Cidades do Estado %s\n",Estado1);
+  printf("Cartas de cidades do Estado %s\n",Estado1);
   printf("\n");/*Para melhor organização*/
 
   printf("Código da cidade: %s\n",Codigo1);
@@ -116,7 +116,7 @@ int main() {
   printf("Número de pontos turisticos: %d\n", PontosTuristicos2);
 
   printf("\n----------------------------------\n"); /*Para melhor organização*/
-  printf("Cidades do Estado %s\n",Estado2);
+  printf("Cartas de cidades do Estado %s\n",Estado2);
   printf("\n");/*Para melhor organização*/
 
   printf("Código da cidade: %s\n",Codigo3);
@@ -133,6 +133,6 @@ int main() {
   printf("Pib da cidade: %f\n",Pib4);
   printf("Número de pontos turisticos: %d\n", PontosTuristicos4);
   printf("\n----------------------------------\n"); /*Para melhor organização*/A
-  
+
     return 0;
 }
